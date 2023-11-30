@@ -20,12 +20,11 @@ function drawGame() {
     for (let row = 0; row < 20; row++) {
         for (let col = 0; col < 10; col++) {
             if (gameMatrix[row][col] === 0) {
-                context.fillStyle = 'white';
+                context.fillStyle = 'black';
             } else {
                 context.fillStyle = 'black';
             }
             context.fillRect(col * blockSize, row * blockSize, blockSize, blockSize);
-            context.strokeRect(col * blockSize, row * blockSize, blockSize, blockSize);
         }
     }
 }

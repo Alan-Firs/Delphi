@@ -1,11 +1,21 @@
 body {
-    background-color: lightblue;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #game {
-    border: 1px solid black;
+    border: 1px solid white;
+}
+h1 {
+    text-align: center;
 }
